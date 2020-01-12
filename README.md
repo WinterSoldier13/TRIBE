@@ -1,2 +1,2 @@
 # TRIBE
-A django based web application
+A django based web application.
