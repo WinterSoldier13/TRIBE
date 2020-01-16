@@ -1,4 +1,5 @@
 # TRIBE
+
 A django based web application for tribal people
 list of works:
 
@@ -12,3 +13,5 @@ work distribution(initial stage)
 2 Ashis
 3 Amit,Harshit
 4 Ashis
+
+A django based web application.

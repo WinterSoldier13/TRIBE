@@ -1,0 +1,70 @@
+/* ####################################################
+:: Template Name: Essence - Fashion Ecommerce Template
+:: Author: Colorlib
+:: Author URL: https://colorlib.com
+:: Description: Essence is smart & elegant fashion e-commerce Template. It's suitable for all e-commerce business platform.
+:: Version: 1.0.0
+:: Created: April 27, 2018
+:: Last Updated: May 2, 2018
+#################################################### */
+
+/* ---------------------------------------
+##### - PLACE YOUR CUSTOM CSS HERE - #####
+--------------------------------------- */
+.heading_1
+{
+    font-family: monospace;
+    font-size: 36 px;
+}
+
+.typewriter
+{
+
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+from { width: 0 }
+to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+from, to { border-color: transparent }
+50% { border-color: orange; }
+}
+
+.typewriter2
+{
+
+    color:white;
+    background:grey;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation:
+    typing2 4s steps(50, end),
+    blink-caret2 .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing2 {
+from { width: 0 }
+to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret2 {
+from, to { border-color: transparent }
+50% { border-color: transparent; }
+}
