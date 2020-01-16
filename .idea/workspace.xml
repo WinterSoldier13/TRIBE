@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ded94223-2393-4dab-9bdb-e6af88edf776" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/about_us/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/about_us/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/about_us/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/about_us/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/about_us/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/about_us/static/about_us/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/about_us/templates/about_us/about_us.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/about_us/templates/about_us/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/about_us/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/about_us/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/about_us/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tribe/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/tribe/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tribe/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/tribe/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,15 +113,26 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="449" y="175" key="SettingsEditor" timestamp="1579153019296">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="449" y="175" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1579153019296" />
-    <state x="555" y="272" width="800" height="532" key="Vcs.Push.Dialog.v2" timestamp="1579155984384">
+    <state x="555" y="272" width="800" height="532" key="Vcs.Push.Dialog.v2" timestamp="1579194197620">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="555" y="272" width="800" height="532" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1579155984384" />
+    <state x="555" y="272" width="800" height="532" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1579194197620" />
     <state x="620" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1579151506897">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
