@@ -21,6 +21,7 @@ urlpatterns = [
     path('',include('home.urls')),
     path('home/',include('home.urls')),
     path('sign_in/',include('accounts.urls')),
-    path('contact',include('contact_us.urls')),
+    path('contact/',include('contact_us.urls')),
+    path('about_us/',include('about_us.urls')),
 
 ]
