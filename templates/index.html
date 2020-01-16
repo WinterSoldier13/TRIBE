@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {% load static %}
 
 <!DOCTYPE html>
@@ -87,7 +86,16 @@
                                     <li><a href="contact.html">Contact</a></li>
                                 </ul>
                             </li>
-                            <li><a href="blog.html">Blog</a></li>
+
+
+                            {% if user.is_authenticated %}
+                            <li>Hello, {{user.first_name}}</li>
+                            <li><a href="accounts/register">Register</a></li>
+
+                            {% else %}
+                            <li><a href="accounts/register">Register</a></li>
+                            <li><a href="accounts/login">LogIn</a></li>
+                            {% endif %}
                             <li><a href="contact.html">Contact</a></li>
                         </ul>
                     </div>
@@ -637,7 +645,9 @@
                                     <li><a href="contact.html">Contact</a></li>
                                 </ul>
                             </li>
-                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="accounts/register">Register</a></li>
+                            <li><a href="accounts/login">LogIn</a></li>
+                            
                             <li><a href="contact.html">Contact</a></li>
                         </ul>
                     </div>
