@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 {% load static %}
 <html lang="en">
@@ -10,10 +11,10 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title  -->
-    <title>TRIBE- Contact Us</title>
+    <title>Essence - Fashion Ecommerce Template</title>
 
     <!-- Favicon  -->
-    <link rel="icon" href="{%static 'contact_us/contact_us/img/core-img/favicon.ico'%}">
+    <link rel="icon" href="{%static 'contact_us/img/core-img/favicon.ico'%}">
 
     <!-- Core Style CSS -->
     <link rel="stylesheet" href="{%static 'contact_us/css/core-style.css'%}">
@@ -210,13 +211,12 @@
                 <p><span>address:</span> National Institute of Technology, Agartala, Tripura</p>
                 <p><span>telephone:</span> +91 some_phone number</p>
 
-                <form action="#" method="post">
+                 <form action="#" method="POST">
+                     {% csrf_token %}
+                                {{form.as_p}}
+                                <button type="submit" class="submit"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+                 </form>
 
-                                <p><input type="email" name="mail" class="mail" placeholder="Your email here"></p>
-                                <input type="text" name="grivence" class="text" placeholder="Write something here">
-                                <button type="submit" class="submit">Submit<i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
-                                
-                            </form>
                 <p><a href="mailto:tribe@gmail.com">tribe@gmail.com</a></p>
             </div>
         </div>
