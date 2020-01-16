@@ -21,8 +21,14 @@ urlpatterns = [
     path('', include('home.urls')),
     path('admin/', admin.site.urls),
     path('home/',include('home.urls')),
+
     path('product_test/',include('product.urls')),
     path('accounts/', include('accounts.urls')),
     
+
+    path('sign_in/',include('accounts.urls')),
+    path('contact/',include('contact_us.urls')),
+    path('about_us/',include('about_us.urls')),
+
 
 ]
