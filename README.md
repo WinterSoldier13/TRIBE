@@ -8,10 +8,12 @@ list of works:
 3.Acounts app
 4.about us app
 
+<br>
 work distribution(initial stage)
 1 pinaki,Ayush
-2 Ashis
+2 Ashis,Disha
 3 Amit,Harshit
-4 Ashis
+4 Ashis,Disha
+<br>
 
 A django based web application.
